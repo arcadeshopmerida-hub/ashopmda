@@ -376,9 +376,9 @@ window.ASM_DATA = {
         {
           "id": "xl-monedero",
           "label": "XL + MONEDERO",
-          "price": "COTIZAR",
-          "note": "Solo juegos arcade + monedero electrónico",
-          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico"
+          "price": "$5,750",
+          "note": "XL + monedero electrónico + juegos arcade",
+          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico%20de%20%245%2C750"
         }
       ],
       "sizeSelector": {
@@ -468,9 +468,9 @@ window.ASM_DATA = {
         {
           "title": "🪙 XL CON MONEDERO",
           "desc": "Gabinete XL comercial con juegos arcade clásicos, monedero electrónico configurable y puerta metálica con cerradura.",
-          "price": "COTIZAR",
-          "button": "COTIZAR MONEDERO",
-          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico"
+          "price": "$5,750 MXN",
+          "button": "PEDIR MONEDERO",
+          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico%20de%20%245%2C750"
         }
       ]
     },
