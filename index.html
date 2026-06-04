@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arcade Shop Mérida</title>
+<meta name="description" content="Arcade Shop Mérida crea equipos arcade personalizados: pedestales, gabinetes premium, mantenimiento y servicios arcade.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="#inicio" class="brand">ARCADE SHOP MÉRIDA</a>
+  <nav>
+    <a href="#equipos">Equipos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+<main>
+<section id="inicio" class="hero">
+  <div class="bg"></div>
+  <div class="insert">INSERT COIN</div>
+  <h1><span>ARCADE SHOP</span><span>MÉRIDA</span></h1>
+  <p class="hero-sub">▶ EQUIPOS ARCADE DE FABRICACIÓN PROPIA ◀</p>
+  <p class="hero-copy">Arcade Shop Mérida crea equipos arcade personalizados. Fabricamos pedestales y gabinetes premium para el hogar, listos para conectar y jugar, con acabados profesionales y la emoción de los videojuegos clásicos y modernos.</p>
+  <div class="hero-actions">
+    <a class="btn btn-cyan" href="#equipos">VER EQUIPOS</a>
+    <a class="btn btn-green" href="https://wa.me/5219994530828" target="_blank">WHATSAPP</a>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section section-bg section-equipos" id="equipos">
+  <h2>SELECCIONA UNA CATEGORÍA</h2>
+  <p>Elige entre pedestales arcade para el hogar o arcades premium con pantalla de 32 pulgadas.</p>
+  <div class="category-tabs">
+    <button class="tab active" data-filter="pedestales">PEDESTALES</button>
+    <button class="tab" data-filter="premium">ARCADES PREMIUM</button>
+    <button class="tab disabled" disabled>PINBALL PRÓXIMAMENTE</button>
+  </div>
+  <div id="productsGrid" class="products-grid"></div>
+</section>
+<div class="divider"></div>
+<section class="section services section-bg section-servicios" id="servicios">
+  <h2>TAMBIÉN TE AYUDAMOS CON ESTO</h2>
+  <div class="services-grid">
+    <article><span>🛠️</span><h3>Mantenimiento</h3><p>Revisión, limpieza, ajustes y reparación de equipos arcade.</p></article>
+    <article><span>🎨</span><h3>Personalización</h3><p>Diseños, artes, acabados y configuraciones a tu gusto.</p></article>
+    <article><span>🕹️</span><h3>Actualización</h3><p>Mejoras en controles, sistemas de juegos y configuración general.</p></article>
+  </div>
+</section>
+<div class="divider"></div>
+<section class="section contact section-bg section-contacto" id="contacto">
+  <h2>ESTAMOS EN MÉRIDA, YUCATÁN</h2>
+  <p>¿Quieres cotizar un equipo o resolver una duda? Escríbenos por WhatsApp y te ayudamos a elegir el modelo ideal.</p>
+  <div class="contact-actions">
+    <a class="btn btn-green big" href="https://wa.me/5219994530828" target="_blank">📱 WHATSAPP</a>
+    <a class="btn btn-cyan big" href="https://www.facebook.com/arcadeShopMerida" target="_blank">👍 FACEBOOK</a>
+  </div>
+</section>
+</main>
+<div id="modalRoot"></div>
+<div id="lightbox" class="lightbox" hidden><button onclick="ASM.closeLightbox()">✕</button><img alt=""></div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/analytics.js"></script>
+</body>
+</html>

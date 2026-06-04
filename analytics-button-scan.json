@@ -1,0 +1,252 @@
+[
+  {
+    "event": "nav_equipos",
+    "selector": "a[href='#equipos']",
+    "label": "Header/hero Equipos"
+  },
+  {
+    "event": "nav_servicios",
+    "selector": "a[href='#servicios']",
+    "label": "Header Servicios"
+  },
+  {
+    "event": "nav_contacto",
+    "selector": "a[href='#contacto']",
+    "label": "Header Contacto"
+  },
+  {
+    "event": "click_whatsapp_contacto",
+    "selector": "a[href*='wa.me/5219994530828']",
+    "label": "WhatsApp general"
+  },
+  {
+    "event": "click_facebook",
+    "selector": "a[href*='facebook.com']",
+    "label": "Facebook"
+  },
+  {
+    "event": "filtro_pedestales",
+    "selector": "button[data-filter='pedestales']",
+    "label": "Filtro Pedestales"
+  },
+  {
+    "event": "filtro_premium",
+    "selector": "button[data-filter='premium']",
+    "label": "Filtro Arcades Premium"
+  },
+  {
+    "event": "ver_detalles_ps4",
+    "selector": "button[onclick*=\"openModal('ps4')\"]",
+    "label": "Ver detalles ps4"
+  },
+  {
+    "event": "whatsapp_tarjeta_ps4",
+    "selector": "#wa-ps4",
+    "label": "WhatsApp tarjeta ps4"
+  },
+  {
+    "event": "modal_cerrar_ps4",
+    "selector": "#modal-ps4 .close",
+    "label": "Cerrar modal ps4"
+  },
+  {
+    "event": "galeria_siguiente_ps4",
+    "selector": "#modal-ps4 .gnext",
+    "label": "Galería siguiente ps4"
+  },
+  {
+    "event": "galeria_anterior_ps4",
+    "selector": "#modal-ps4 .gprev",
+    "label": "Galería anterior ps4"
+  },
+  {
+    "event": "selector_tarjeta_ps4_with",
+    "selector": ".product-card[data-id='ps4'] .option-buttons button",
+    "label": "Selector tarjeta ps4 with"
+  },
+  {
+    "event": "selector_tarjeta_ps4_without",
+    "selector": ".product-card[data-id='ps4'] .option-buttons button",
+    "label": "Selector tarjeta ps4 without"
+  },
+  {
+    "event": "whatsapp_modal_ps4_🎮_con_ps4",
+    "selector": "#modal-ps4 .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal ps4 🎮_con_ps4"
+  },
+  {
+    "event": "whatsapp_modal_ps4_🕹️_sin_ps4",
+    "selector": "#modal-ps4 .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal ps4 🕹️_sin_ps4"
+  },
+  {
+    "event": "ver_detalles_retro2j",
+    "selector": "button[onclick*=\"openModal('retro2j')\"]",
+    "label": "Ver detalles retro2j"
+  },
+  {
+    "event": "whatsapp_tarjeta_retro2j",
+    "selector": "#wa-retro2j",
+    "label": "WhatsApp tarjeta retro2j"
+  },
+  {
+    "event": "modal_cerrar_retro2j",
+    "selector": "#modal-retro2j .close",
+    "label": "Cerrar modal retro2j"
+  },
+  {
+    "event": "galeria_siguiente_retro2j",
+    "selector": "#modal-retro2j .gnext",
+    "label": "Galería siguiente retro2j"
+  },
+  {
+    "event": "galeria_anterior_retro2j",
+    "selector": "#modal-retro2j .gprev",
+    "label": "Galería anterior retro2j"
+  },
+  {
+    "event": "selector_tarjeta_retro2j_estandar",
+    "selector": ".product-card[data-id='retro2j'] .option-buttons button",
+    "label": "Selector tarjeta retro2j estandar"
+  },
+  {
+    "event": "selector_tarjeta_retro2j_xl",
+    "selector": ".product-card[data-id='retro2j'] .option-buttons button",
+    "label": "Selector tarjeta retro2j xl"
+  },
+  {
+    "event": "whatsapp_modal_retro2j_🕹️_estándar",
+    "selector": "#modal-retro2j .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal retro2j 🕹️_estándar"
+  },
+  {
+    "event": "whatsapp_modal_retro2j_🕹️_xl",
+    "selector": "#modal-retro2j .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal retro2j 🕹️_xl"
+  },
+  {
+    "event": "ver_detalles_retro4j",
+    "selector": "button[onclick*=\"openModal('retro4j')\"]",
+    "label": "Ver detalles retro4j"
+  },
+  {
+    "event": "whatsapp_tarjeta_retro4j",
+    "selector": "#wa-retro4j",
+    "label": "WhatsApp tarjeta retro4j"
+  },
+  {
+    "event": "modal_cerrar_retro4j",
+    "selector": "#modal-retro4j .close",
+    "label": "Cerrar modal retro4j"
+  },
+  {
+    "event": "galeria_siguiente_retro4j",
+    "selector": "#modal-retro4j .gnext",
+    "label": "Galería siguiente retro4j"
+  },
+  {
+    "event": "galeria_anterior_retro4j",
+    "selector": "#modal-retro4j .gprev",
+    "label": "Galería anterior retro4j"
+  },
+  {
+    "event": "selector_tarjeta_retro4j_xl",
+    "selector": ".product-card[data-id='retro4j'] .option-buttons button",
+    "label": "Selector tarjeta retro4j xl"
+  },
+  {
+    "event": "whatsapp_modal_retro4j_🕹️_xl_4_jugadores",
+    "selector": "#modal-retro4j .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal retro4j 🕹️_xl_4_jugadores"
+  },
+  {
+    "event": "ver_detalles_japonesa",
+    "selector": "button[onclick*=\"openModal('japonesa')\"]",
+    "label": "Ver detalles japonesa"
+  },
+  {
+    "event": "whatsapp_tarjeta_japonesa",
+    "selector": "#wa-japonesa",
+    "label": "WhatsApp tarjeta japonesa"
+  },
+  {
+    "event": "modal_cerrar_japonesa",
+    "selector": "#modal-japonesa .close",
+    "label": "Cerrar modal japonesa"
+  },
+  {
+    "event": "galeria_siguiente_japonesa",
+    "selector": "#modal-japonesa .gnext",
+    "label": "Galería siguiente japonesa"
+  },
+  {
+    "event": "galeria_anterior_japonesa",
+    "selector": "#modal-japonesa .gprev",
+    "label": "Galería anterior japonesa"
+  },
+  {
+    "event": "selector_tarjeta_japonesa_classic",
+    "selector": ".product-card[data-id='japonesa'] .option-buttons button",
+    "label": "Selector tarjeta japonesa classic"
+  },
+  {
+    "event": "selector_tarjeta_japonesa_modern",
+    "selector": ".product-card[data-id='japonesa'] .option-buttons button",
+    "label": "Selector tarjeta japonesa modern"
+  },
+  {
+    "event": "whatsapp_modal_japonesa_classic",
+    "selector": "#modal-japonesa .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal japonesa classic"
+  },
+  {
+    "event": "whatsapp_modal_japonesa_modern",
+    "selector": "#modal-japonesa .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal japonesa modern"
+  },
+  {
+    "event": "ver_detalles_americana",
+    "selector": "button[onclick*=\"openModal('americana')\"]",
+    "label": "Ver detalles americana"
+  },
+  {
+    "event": "whatsapp_tarjeta_americana",
+    "selector": "#wa-americana",
+    "label": "WhatsApp tarjeta americana"
+  },
+  {
+    "event": "modal_cerrar_americana",
+    "selector": "#modal-americana .close",
+    "label": "Cerrar modal americana"
+  },
+  {
+    "event": "galeria_siguiente_americana",
+    "selector": "#modal-americana .gnext",
+    "label": "Galería siguiente americana"
+  },
+  {
+    "event": "galeria_anterior_americana",
+    "selector": "#modal-americana .gprev",
+    "label": "Galería anterior americana"
+  },
+  {
+    "event": "selector_tarjeta_americana_classic",
+    "selector": ".product-card[data-id='americana'] .option-buttons button",
+    "label": "Selector tarjeta americana classic"
+  },
+  {
+    "event": "selector_tarjeta_americana_modern",
+    "selector": ".product-card[data-id='americana'] .option-buttons button",
+    "label": "Selector tarjeta americana modern"
+  },
+  {
+    "event": "whatsapp_modal_americana_classic",
+    "selector": "#modal-americana .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal americana classic"
+  },
+  {
+    "event": "whatsapp_modal_americana_modern",
+    "selector": "#modal-americana .price-card a[href*='wa.me']",
+    "label": "WhatsApp modal americana modern"
+  }
+]
