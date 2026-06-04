@@ -174,3 +174,13 @@ h1,h2,h3{font-family:"Press Start 2P";margin:0}
 :root { --orange: #ff8c00; }
 .product-card[data-theme=orange] { --p: var(--orange); --pd: #4a2600; }
 .modal-box[data-theme=orange] { --p: var(--orange); --pd: #4a2600; }
+
+/* Categoría Comercial */
+.category-tabs .tab[data-filter="comercial"] {
+  border-color: var(--orange, #ff8c00);
+  color: var(--orange, #ff8c00);
+}
+.category-tabs .tab[data-filter="comercial"].active {
+  background: var(--orange, #ff8c00);
+  color: var(--dark);
+}

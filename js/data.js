@@ -360,7 +360,7 @@ window.ASM_DATA = {
     },
     {
       "id": "monedero",
-      "category": "pedestales",
+      "category": "comercial",
       "theme": "orange",
       "badge": "⭐ COMERCIAL",
       "title": "PEDESTAL ARCADE",
