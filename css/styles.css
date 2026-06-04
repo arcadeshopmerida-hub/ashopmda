@@ -169,3 +169,8 @@ h1,h2,h3{font-family:"Press Start 2P";margin:0}
 .hero .bg {
   background-image: url('../img/bg/bg-ciudad.png') !important;
 }
+
+/* Tema: pedestal con monedero electrónico */
+:root { --orange: #ff8c00; }
+.product-card[data-theme=orange] { --p: var(--orange); --pd: #4a2600; }
+.modal-box[data-theme=orange] { --p: var(--orange); --pd: #4a2600; }

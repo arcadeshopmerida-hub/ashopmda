@@ -359,6 +359,122 @@ window.ASM_DATA = {
       ]
     },
     {
+      "id": "monedero",
+      "category": "pedestales",
+      "theme": "orange",
+      "badge": "⭐ COMERCIAL",
+      "title": "PEDESTAL ARCADE",
+      "subtitle": "XL CON MONEDERO ELECTRÓNICO",
+      "cover": "img/monedero/monedero-puerta-monedero.jpg",
+      "summary": [
+        "🪙 Una opción pensada para negocios y espacios comerciales: lista para cobrar por partida y controlar el uso del equipo de forma práctica.",
+        "🕹️ Incluye únicamente juegos arcade clásicos, sin juegos de consola, para ofrecer partidas rápidas, directas y fáciles de entender para cualquier usuario.",
+        "🔒 Gabinete XL resistente, con monedero electrónico configurable y puerta metálica frontal con cerradura para retirar las monedas de forma segura."
+      ],
+      "selectorLabel": "CONFIGURACIÓN",
+      "cardOptions": [
+        {
+          "id": "xl-monedero",
+          "label": "XL + MONEDERO",
+          "price": "COTIZAR",
+          "note": "Solo juegos arcade + monedero electrónico",
+          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico"
+        }
+      ],
+      "sizeSelector": {
+        "type": "fixed",
+        "label": "TAMAÑO DISPONIBLE",
+        "buttons": [
+          {
+            "label": "ESTÁNDAR",
+            "disabled": true
+          },
+          {
+            "label": "XL ✓",
+            "active": true
+          }
+        ],
+        "title": "Tamaño XL comercial",
+        "desc": "El gabinete XL ofrece más comodidad, mejor presencia visual y espacio suficiente para integrar el monedero electrónico sin sacrificar la experiencia de juego."
+      },
+      "gallery": [
+        "img/monedero/monedero-vista-general.jpg",
+        "img/monedero/monedero-panel-botones.jpg",
+        "img/monedero/monedero-start-pause.jpg",
+        "img/monedero/monedero-diseno-led.jpg",
+        "img/monedero/monedero-puerta-monedero.jpg"
+      ],
+      "modalIntro": "Este equipo está diseñado para uso comercial: resistente, fácil de operar y enfocado en juegos arcade clásicos de partidas rápidas.",
+      "sections": [
+        {
+          "title": "🔨 CONSTRUCCIÓN",
+          "items": [
+            "Estructura sólida y resistente, pensada para durar años de uso",
+            "Diseñado para soportar el clima de Mérida y mantenerse estable con el paso del tiempo",
+            "Gabinete XL con tamaño similar al pedestal retro de 2 jugadores XL",
+            "Acabado exterior protegido para conservar mejor su apariencia",
+            "Diseño impreso en alta definición con laminado protector",
+            "Base amplia y estable para uso continuo",
+            "Construcción pensada para negocio, local o espacio con alto movimiento"
+          ]
+        },
+        {
+          "title": "🪙 MONEDERO ELECTRÓNICO",
+          "items": [
+            "Monedero electrónico integrado al gabinete",
+            "Acepta monedas de $1, $2, $5 y $10 pesos",
+            "Permite configurar el número de partidas por moneda",
+            "Ideal para controlar el uso del equipo en espacios comerciales",
+            "Puerta metálica frontal con cerradura para retirar monedas con mayor seguridad",
+            "Marco luminoso que hace más visible el área del monedero",
+            "Sistema práctico para negocios, locales, salas de espera y áreas recreativas"
+          ]
+        },
+        {
+          "title": "🕹️ CONTROLES",
+          "items": [
+            "Preparado para 2 jugadores simultáneos",
+            "2 palancas arcade de 8 direcciones",
+            "6 botones de juego por jugador",
+            "Botones Start y Select para cada jugador",
+            "Botones con iluminación LED para mayor presencia visual",
+            "Distribución clara y cómoda para juegos arcade clásicos",
+            "Controles pensados para partidas rápidas y uso sencillo"
+          ]
+        },
+        {
+          "title": "🎮 JUEGOS ARCADE",
+          "items": [
+            "Enfocado exclusivamente en juegos arcade clásicos",
+            "No incluye juegos de consola, para mantener una experiencia más directa",
+            "Catálogo ideal para partidas rápidas y rotación de jugadores",
+            "Street Fighter, King of Fighters, Samurai Shodown y Fatal Fury",
+            "Metal Slug, Pac-Man, Donkey Kong, Contra y Final Fight",
+            "Beat 'em ups, peleas, naves, plataformas y clásicos de salón",
+            "Interfaz visual organizada y fácil de usar"
+          ]
+        },
+        {
+          "title": "🔌 CONEXIONES",
+          "items": [
+            "Conexión directa a pantallas o monitores por HDMI",
+            "Compatible con salida VGA para pantallas compatibles",
+            "Salida auxiliar para conectar a un sistema de sonido externo",
+            "Listo para conectar, configurar y empezar a usar"
+          ]
+        }
+      ],
+      "priceCards": [
+        {
+          "title": "🪙 XL CON MONEDERO",
+          "desc": "Gabinete XL comercial con juegos arcade clásicos, monedero electrónico configurable y puerta metálica con cerradura.",
+          "price": "COTIZAR",
+          "button": "COTIZAR MONEDERO",
+          "wa": "https://wa.me/5219994530828?text=Hola%21%20Me%20interesa%20el%20Pedestal%20Arcade%20XL%20con%20Monedero%20Electr%C3%B3nico"
+        }
+      ]
+    },
+    {
       "id": "japonesa",
       "category": "premium",
       "theme": "magenta",
